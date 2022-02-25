@@ -1,0 +1,2003 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fullpage}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "Curlz MT"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sumin}{\sum_{i=1}^{n}}
+{\sum_{i=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjn}{\sum_{j=1}^{n}}
+{\sum_{j=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumim}{\sum_{i=1}^{m}}
+{\sum_{i=1}^{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjm}{\sum_{j=1}^{m}}
+{\sum_{j=1}^{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumik}{\sum_{i=1}^{k}}
+{\sum_{i=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjk}{\sum_{j=1}^{k}}
+{\sum_{j=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumkn}{\sum_{k=1}^{n}}
+{\sum_{k=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumnk}{\sum_{n=1}^{k}}
+{\sum_{n=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumkm}{\sum_{k=1}^{m}}
+{\sum_{k=1}^{m}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ser}[3]{#1_{1}#2#1_{2}#2#1_{2}#2#1_{3}#2....#2#1_{#3}}
+{#1_{1}#2#1_{2}#2#1_{2}#2#1_{3}#2....#2#1_{#3}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vn}{v_{1},v_{2},...v_{n}}
+{v_{1},v_{2},...v_{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vm}{v_{1},v_{2},...v_{m}}
+{v_{1},v_{2},...v_{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\un}{u_{1},u_{2},...u_{n}}
+{u_{1},u_{2},...u_{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\um}{u_{1},u_{2},...u_{m}}
+{u_{1},u_{2},...u_{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vk}{v_{1},v_{2},...v_{k}}
+{v_{1},v_{2},...v_{k}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\vecmul}[6]{\left[\begin{matrix}#1\\
+ #2\\
+ #3 
+\end{matrix}\right]\times\left[\begin{matrix}#4\\
+ #5\\
+ #6 
+\end{matrix}\right]=\left[\begin{matrix}\left(#2\right)\cdot\left(#6\right)-\left(#3\right)\cdot\left(#5\right)\\
+ \left(#3\right)\cdot\left(#4\right)-\left(#1\right)\cdot\left(#6\right)\\
+ \left(#1\right)\cdot\left(#5\right)-\left(#2\right)\cdot\left(#4\right) 
+\end{matrix}\right]}
+{\left[\begin{matrix}#1\\
+#2\\
+#3
+\end{matrix}\right]\times\left[\begin{matrix}#4\\
+#5\\
+#6
+\end{matrix}\right]=\left[\begin{matrix}\left(#2\right)\cdot\left(#6\right)-\left(#3\right)\cdot\left(#5\right)\\
+\left(#3\right)\cdot\left(#4\right)-\left(#1\right)\cdot\left(#6\right)\\
+\left(#1\right)\cdot\left(#5\right)-\left(#2\right)\cdot\left(#4\right)
+\end{matrix}\right]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\lim}[1]{\lim_{n\rightarrow\infty}\left(#1\right)}
+{\lim_{n\rightarrow\infty}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\rank}{\text{Rank}}
+{\text{Rank}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\im}{\text{Im}}
+{\text{Im}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sp}{\text{Span}}
+{\text{Span}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\fancyF}{\mathscr{F}}
+{\mathscr{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\fancyB}{\mathscr{B}}
+{\mathscr{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseA}{\mathcal{A}}
+{\mathcal{A}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseB}{\mathcal{B}}
+{\mathcal{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseC}{\mathcal{C}}
+{\mathcal{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\FF}{\mathbb{F}}
+{\mathbb{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\CC}{\mathbb{C}}
+{\mathbb{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\RR}{\mathbb{R}}
+{\mathbb{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\QQ}{\mathbb{Q}}
+{\mathbb{Q}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\NN}{\mathbb{N}}
+{\mathbb{N}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ZZ}{\mathbb{Z}}
+{\mathbb{Z}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\kaliCupDot}{\mathbin{\cupdot}}
+{\mathbin{\dot{\cup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\kaliBigCupDot}{\mathbin{\bigcupdot}}
+{\mathbin{\dot{\bigcup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\PP}{\mathbb{P}}
+{\mathbb{P}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\EE}{\mathbb{E}}
+{\mathbb{E}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\nab}{\overline{\nabla}}
+{\overline{\nabla}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\supp}{\text{Supp}}
+{\text{Supp}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\geo}{\text{Geo}}
+{\text{Geo}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\bin}{\text{Bin}}
+{\text{Bin}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ber}{\text{Ber}}
+{\text{Ber}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\poi}{\text{Poi}}
+{\text{Poi}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\exp}{\text{Exp}}
+{\text{Exp}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\cov}{\text{Cov}}
+{\text{Cov}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\var}{\text{Var}}
+{\text{Var}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sinc}{\text{sinc}}
+{\text{sinc}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ra}{\text{\ensuremath{\rightarrow}}}
+{\text{\ensuremath{\rightarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\la}{\text{\ensuremath{\leftarrow}}}
+{\text{\ensuremath{\leftarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\renewcommand{\iff}{\text{\ensuremath{\Leftrightarrow}}}
+{\text{\Leftrightarrow}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\E}{\text{\ensuremath{\exists}}}
+{\text{\ensuremath{\exists}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\RA}{\text{\ensuremath{\Rightarrow}}}
+{\text{\ensuremath{\Rightarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\LA}{\text{\ensuremath{\Leftarrow}}}
+{\text{\ensuremath{\Leftarrow}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\li}{\text{\ensuremath{\langle}}}
+{\text{\langle}}
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\ri}{\rangle}
+{\text{\rangle}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vec}{\begin{bmatrix}\end{bmatrix}}
+{\begin{bmatrix}\end{bmatrix}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\T}{^{\intercal}}
+{^{\intercal}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\xor}{\oplus}
+{\oplus}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\norm}{\Vert}
+{\Vert}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\2}{^{2}}
+{^{2}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\and}{\wedge}
+{\wedge}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Title
+67731 | Convex Optimization and Applications
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+|
+\xout off
+\lang english
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Ex
+\lang hebrew
+ 
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Author
+Guy Lutsker 207029448
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Convex Sets
+\end_layout
+
+\begin_layout Standard
+Which of the following is convex sets? prove or give a counter example:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\{x\in\RR^{d}|\alpha_{i}\le x_{i}\le\beta_{i}.i\in[d]\}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{The set is convex. Proof:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{We can describe the aforementioned as two convex sets we have covered:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Denote: \ensuremath{A=\{x\in\RR^{d}|\alpha_{i}\le x_{i}\},B=\{x\in\RR^{d}|x_{i}\le\beta_{i}\}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Notice that both \ensuremath{A,B} are halfspaces, and so are convex.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{We have learned in class that an intersection of convex sets, is convex it self, and so: }B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\{x\in\RR^{d}|\alpha_{i}\le x_{i}\le\beta_{i}.i\in[d]\}=\overset{\text{Convex}}{\overbrace{A}}\cap\overset{\text{Convex}}{\overbrace{B}}\rightarrow\overset{\text{Convex}}{\overbrace{A\cap B}}=\overset{\text{Convex}}{\overbrace{\{x\in\RR^{d}|\alpha_{i}\le x_{i}\le\beta_{i}.i\in[d]\}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\{x\in\RR^{d}|\ \norm x\norm_{0}\le k\}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{The set is \textbf{not }convex. Counter example:}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{k=1} and let \ensuremath{\RR^{d}\ni v_{1}=\begin{bmatrix}1\\
+0\\
+\vdots\\
+0
+\end{bmatrix},\RR^{d}\ni v_{2}=\begin{bmatrix}0\\
+1\\
+\vdots\\
+0
+\end{bmatrix}.} }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Its clear that both \ensuremath{v_{1},v_{2}} hold that \ensuremath{\forall i\in[2]:}\ensuremath{\norm v_{i}\norm_{0}\le k} and so both are in the aforementioned set }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Let us look at a convex combination of \ensuremath{v_{1},v_{2}}: Let us choose \ensuremath{\theta=0.5}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta\cdot v_{1}+(1-\theta)\cdot v_{2}=\begin{bmatrix}0.5\\
+0\\
+\vdots\\
+0
+\end{bmatrix}+\begin{bmatrix}0\\
+0.5\\
+\vdots\\
+0
+\end{bmatrix}=\begin{bmatrix}0.5\\
+0.5\\
+\vdots\\
+0
+\end{bmatrix}\rightarrow\norm\begin{bmatrix}0.5\\
+0.5\\
+\vdots\\
+0
+\end{bmatrix}\norm_{0}=2\neq1=k\rightarrow\theta\cdot v_{1}+(1-\theta)\cdot v_{2}\notin\text{The set\ensuremath{\rightarrow\text{The set}} is not convex.}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\{x\in\RR^{d}|\ \norm x-x_{0}\norm_{2}\le\norm x-y\norm_{2}\ \forall y\in Y,x_{0}\in\RR^{d}\}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{The set is convex. Proof:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Notice that for each point \ensuremath{y\in Y} what we are essentially creating here is a halfspace.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{(To me this problem sounds alot like SVM, even though I might be exaggerating.}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{ And the point in \ensuremath{Y} which are closect to \ensuremath{x_{0}} are the "support vectors" which help us}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{ define the halfspace - our convex set here is the one that contains \ensuremath{x_{0}})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{(you can tell me how off I am, but for now lets get back to reality)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{I will prove that for a point \ensuremath{y\in Y} we get a convex set, and the convexity of the set will follow, }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{since it will be an intersection of convex sets.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{y\in Y} and lets look at \ensuremath{\{x\in\RR^{d}|\ \norm x-x_{0}\norm_{2}\le\norm x-y\norm_{2}\}}},\text{and 2 points \ensuremath{v,w} in the set.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{0\le\theta\le1.}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Denote our candidate }c=\theta\cdot v+(1-\theta)\cdot w
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Lets check: \ensuremath{\norm c-x_{0}\norm_{2}\overset{?}{\le}\norm c-y\norm_{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\{X\in\RR^{d\times d}|rank(X)<d\}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{The set is \textbf{not }convex. Counter example:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let us take \ensuremath{\delta_{i,j}=\begin{cases}
+0 & i\neq j\\
+f(i,j) & i=j
+\end{cases}}}\text{ where \ensuremath{f} is some function such that \ensuremath{f:\NN^{2}\rightarrow\{0,1\}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Also \ensuremath{f} holds that its image has both \ensuremath{0} and \ensuremath{1}, meaning \ensuremath{\{0,1\}\in Im(f)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let us construct \ensuremath{A\in\RR^{d\times d}}}\text{ such that \ensuremath{A_{i,j}=\delta_{i,j}}.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{Let us also construct \ensuremath{\eta_{i,j}=\begin{cases}
+0 & i\neq j\\
+g(i,j) & i=j
+\end{cases}}}\text{ where \ensuremath{g} is some function such that }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{\ensuremath{f:\NN^{2}\rightarrow\{0,1\}} and says the oposite of \ensuremath{f} such that:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(i,j)=\begin{cases}
+0 & f(i,j)=1\\
+1 & f(i,j)=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{And \ensuremath{g} also holds that \ensuremath{\{0,1\}\in Im(g)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let us then construct \ensuremath{B\in\RR^{d\times d}}}\text{ such that \ensuremath{B_{i,j}=\eta_{i,j}}.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Notice that by the way of construction, both \ensuremath{A,B} have a rank between 1 and \ensuremath{d-1} .}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{This is true since both \ensuremath{f,g} hold that they are diagonal with a number of 1's between 1,\ensuremath{d-1}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Not only that, but they have "completing" ranks, s.t \ensuremath{rank(A)+rank(B)=d}.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{This is again true because of the construction of \ensuremath{f,g}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Notice that since \ensuremath{rank(A),rank(B)<d} they are both is the set. }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{But for any convex combination of them (exluding \ensuremath{\theta\in\{0,1\}}) the result will be a full rank matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Since it will be a diagonal matrix, and so will not be in the set.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{And so the set is not convex.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\{x\in\RR^{d}|d(x,S)\le d(x,T),s.t\ d(x,S)=\underset{y\in S}{min}\norm x-y\norm\}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{The set is \textbf{not }convex. Counter example:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{d=1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{S=\{1,-1\},T=\{0\}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{a=1,b=-1} be in the set since \ensuremath{\norm1-(1)\norm=0\le0=\norm-1-(-1)\norm}.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{But taking \ensuremath{\theta=0.5} gives us 0 which is closer to \ensuremath{T} \ensuremath{\rightarrow}\ensuremath{\underset{y\in S}{min}\norm0-y\norm=1\not\le0=\norm0-0\norm=\underset{y\in T}{min}\norm x-y\norm}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{And so the set is not convex.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\{X\in\mathbb{S}_{+}^{d}|Tr(X)\le r\}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $\text{As the hint suggests, if with will show that \ensuremath{Tr(X)} is a linear function we will be done since the set  }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{will be a halfspace and so will be convex.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Notice that \ensuremath{Tr(A+B)=\sum_{i}a_{i,i}+b_{i,i}=\sum_{i}a_{i,i}+\sum_{i}b_{i,i}=Tr(A)+Tr(B)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{And that: \ensuremath{Tr(cA)=\sum_{i}ca_{i,i}=c\sum_{i}a_{i,i}=c\cdot Tr(A)} . }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{And so, trace is a linear function, and the set is a halfspace, which is convex.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Prove that 
+\begin_inset Formula $C$
+\end_inset
+
+ is convex (according to the definition from the lecture) iff it contains
+ every convex combination of its points.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{We shall prove on the convex set \ensuremath{C} by induction over the length of the convex combination \ensuremath{n}. }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Base: Let \ensuremath{n=1,}then for any point \ensuremath{x_{1}}\ensuremath{\in C} a convex combination must require \ensuremath{\theta=1} and we immidiatly get the derivation. }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Step: Assume the statement is true for any \ensuremath{n-1} and we shall prove for \ensuremath{n}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{x_{1}-x_{n}\in C}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{We want to proove that \ensuremath{\sum_{i}\theta_{i}x_{i}\in C} where \ensuremath{\sum_{i}\theta_{i}=1}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{From I.H we know that for \ensuremath{n-1} the statement holds, and so we know that we can take }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sum_{i}^{n-1}\theta_{i}=1\rightarrow\text{ we can "renormalize" for the new expression \ensuremath{\theta_{n}} thusly:}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\theta_{i}^{'}=\frac{\theta_{i}}{1-\theta_{n}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{And now:}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sum_{i}^{n}\theta_{i}x_{i}=\overset{\in C\ \text{via the I.H}}{\overbrace{(1-\theta_{n})\sum_{i=1}^{n-1}\frac{\theta_{i}\cdot x_{i}}{1-\theta_{n}}}}+\theta_{n}\overset{\text{Chosen from \ensuremath{C}}}{\overbrace{\cdot x_{n}}}\overset{\sum_{i=1}^{n}\theta_{i}=1}{\overbrace{\in}}C
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Prove that a convex hull is equivalent to 
+\begin_inset Formula $convS:$
+\end_inset
+
+ the smallest convex set that contains 
+\begin_inset Formula $S$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Let \ensuremath{S} be a set, and \ensuremath{H} be its convex hull, and \ensuremath{K} be the smallest convex set that contains \ensuremath{S}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+H\subset K:
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{From Q7 we know that a convex set must contain all of the convex combinations in it.}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Given that \ensuremath{H} is simply some convex combination of \ensuremath{k} points in \ensuremath{S} (which are also in \ensuremath{H} by definition) }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{\ensuremath{K} must contain this set otherwise its not convex.}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+K\subset H:
+\]
+
+\end_inset
+
+
+\begin_inset Formula $H\text{ is a set of convex combinations, and so is also convex (Q7 is iff)  }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{and so if \ensuremath{K} portrays to be the smallest convex set that contains \ensuremath{S}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{Then \ensuremath{H} is some convex combinations, and must be by definition larger or equal to the smallest convex set contaning \ensuremath{S}, }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{And so the statement is derived.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+\bar under
+a
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\bar under
+a
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $f(\begin{bmatrix}x\\
+t
+\end{bmatrix})=\frac{Ax+b}{ct+d},$
+\end_inset
+
+such that 
+\begin_inset Formula $dom(f)=\{\begin{bmatrix}x\\
+t
+\end{bmatrix}|\ ct+d>0\}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+Let 
+\begin_inset Formula $S\subset\RR^{d}$
+\end_inset
+
+ be a convex set, show that 
+\begin_inset Formula $\{f(x)\ |\ x\in S\ \cap\ dom(f)\}$
+\end_inset
+
+ is convex.
+\end_layout
+
+\begin_layout Standard
+Lets take the hints suggestion and look at 
+\begin_inset Formula $S_{1}=\{\begin{bmatrix}A & 0\\
+0 & c
+\end{bmatrix}\cdot\begin{bmatrix}x\\
+t
+\end{bmatrix}+\begin{bmatrix}b\\
+d
+\end{bmatrix}\ \ |\ \ \begin{bmatrix}x\\
+t
+\end{bmatrix}\in S\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Notice that 
+\begin_inset Formula $S$
+\end_inset
+
+ is convex, and the operation 
+\begin_inset Formula $\begin{bmatrix}A & 0\\
+0 & c
+\end{bmatrix}\cdot\begin{bmatrix}x\\
+t
+\end{bmatrix}+\begin{bmatrix}b\\
+d
+\end{bmatrix}$
+\end_inset
+
+ is affine, meaning 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+is a set of affine operation on a convex set - this is a convex set as well,
+ and so 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ is convex.
+ This means that the enumerator if our output of 
+\begin_inset Formula $f$
+\end_inset
+
+ is convex.
+ The denominator is clearly affine as well, and since 
+\begin_inset Formula $ct+d>0$
+\end_inset
+
+ is required in 
+\begin_inset Formula $dom(f)$
+\end_inset
+
+ we get that 
+\begin_inset Formula $f$
+\end_inset
+
+ is a composition of an 2 affine transformation, and packing them into a
+ perspective function.
+ Fortunately, 
+\begin_inset Formula $S$
+\end_inset
+
+ is convex, and a composition of affine functions, and perspective conserves
+ convexity, and so 
+\begin_inset Formula $\{f(x)\ |\ x\in S\ \cap\ dom(f)\}$
+\end_inset
+
+ is convex.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $S\subset\RR^{d-1}$
+\end_inset
+
+ be a convex set, show that:
+\begin_inset Formula $\{x\ |\ f(x)\in S,x\in dom(f)\}$
+\end_inset
+
+ is convex.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is basically requiring that the inverse of a conserves conserving function
+ also conserves convexity (since I have shown in Q11 that 
+\begin_inset Formula $f$
+\end_inset
+
+ conserves convexity), and we have shown this is class.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $K\subset V$
+\end_inset
+
+ be a convex cone, and 
+\begin_inset Formula $K^{*}=\{x\in V|\li x,y\ri\ge0,\forall y\in K\}$
+\end_inset
+
+ be the dual cone.
+ Prove that the dual cone is a convex cone:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $a,b\in K^{*},y\in K,0\le\theta\le1$
+\end_inset
+
+.
+ We need to prove that 
+\begin_inset Formula $\theta a+(1-\theta)b\in K^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let us look at 
+\begin_inset Formula $\li\theta a+(1-\theta)b,y\ri\overset{\text{Inner product is linear in the first component}}{=}\theta\overset{\ge0}{\overbrace{\li a,y\ri}}+(1-\theta)\overset{\ge0}{\overbrace{\li b,y\ri}}\ge0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow\li\theta a+(1-\theta)b,y\ri\in K^{*}\rightarrow K^{*}$
+\end_inset
+
+ is convex.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $K$
+\end_inset
+
+ a subspace of 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ Show that the dual cone is its orthogonal complement.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V\not\subset V^{*}:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $0\neq v\in V$
+\end_inset
+
+ then 
+\begin_inset Formula $\li v,-v\ri<0$
+\end_inset
+
+ and so 
+\begin_inset Formula $v$
+\end_inset
+
+ cannot be in 
+\begin_inset Formula $V^{*}$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\notin V^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V\perp V^{*}:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ and let 
+\begin_inset Formula $o$
+\end_inset
+
+ be in 
+\begin_inset Formula $V's$
+\end_inset
+
+ orthogonal complement, then 
+\begin_inset Formula $\li v,o\ri=0$
+\end_inset
+
+ by definitions, and so 
+\begin_inset Formula $o\in V^{*}\rightarrow V^{*}=$
+\end_inset
+
+orthogonal complement of 
+\begin_inset Formula $V$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Show that 
+\begin_inset Formula $\RR_{+}^{n*}=\RR_{+}^{n}.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\RR_{+}^{n}\subset\RR_{+}^{n*}:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $x_{1},x_{2}\in\RR_{+}^{n}$
+\end_inset
+
+ notice that 
+\begin_inset Formula $\li x_{1},x_{2}\ri\ge0\rightarrow x_{1}\in\RR_{+}^{n*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\RR_{+}^{n*}\subset\RR_{+}^{n}:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $x_{1}\in\RR_{+}^{n*}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{2}\in\RR_{+}^{n}$
+\end_inset
+
+ notice that 
+\begin_inset Formula $\li x_{1},x_{2}\ri\ge0\rightarrow x_{1}\in\RR_{+}^{n}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Show that 
+\begin_inset Formula $\mathbb{S}_{+}^{n*}=\mathbb{S}_{+}^{n}.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Solution:
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have defined in EX0 that an inner product of two matrices in the trace
+ of their multiplication, and so: 
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $A,B\in\mathbb{S}_{+}^{n}$
+\end_inset
+
+ that means that 
+\begin_inset Formula $\li A,B\ri=Tr(A\T B)=Tr(AB)\overset{A,B\in\mathbb{S}_{+}^{n}}{\overbrace{\ge}}0$
+\end_inset
+
+ and so 
+\begin_inset Formula $B\in\mathbb{S}_{+}^{n*}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $X\notin\mathbb{S}_{+}^{n}$
+\end_inset
+
+ that means that each eigen value of 
+\begin_inset Formula $X$
+\end_inset
+
+ is negative, and since 
+\begin_inset Formula $Tr$
+\end_inset
+
+ preserves in similar matrices, we can consider that 
+\begin_inset Formula $X$
+\end_inset
+
+ has its eigen values on its diagonal.
+ And so we can conclude that 
+\begin_inset Formula $X\notin\mathbb{S}_{+}^{n*}.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
